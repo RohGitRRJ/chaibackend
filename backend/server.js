@@ -22,7 +22,7 @@ app.get('/api/jokes', (req, res) => {
             title: 'Joke 3',
             content: 'This is joke 3'
         }];
-    res.send(jokes)//.json to send json dataa
+    res.send(jokes)
 });
 const port = process.env.PORT || 3000;
 

@@ -17,7 +17,7 @@ function App() {
     .catch((error)=>{
       console.log(error)
     })  
-    })
+    },[])
   return (
     <div>
       <h1>Jokes</h1>
