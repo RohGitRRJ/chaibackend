@@ -17,7 +17,7 @@ function App() {
     .catch((error)=>{
       console.log(error)
     })  
-    },[])
+    })
   return (
     <div>
       <h1>Jokes</h1>
@@ -32,7 +32,7 @@ function App() {
         ))
       }
 
-      <h1>butcher sir is here with chai and full stack</h1>
+      <h1>butcher sir is here with chai and full stack course</h1>
     </div>
   )
 }
